@@ -12,7 +12,6 @@ nav {
 
 .nav-bar {
     background-color: rgb(214, 182, 39);
-    padding: 10px;
     max-width: 980px;
     width: 100%;
     margin: 0 auto;
@@ -21,11 +20,15 @@ nav {
 }
 
 .logo, .login {
+    padding: 10px;
     flex-grow: 1;
+    border: 1px dashed black;
 }
 
 .nav-links {
+    padding: 10px;
     flex-grow: 3;
+    border: 1px dashed black;
 }
 
 /* header  start */
@@ -41,6 +44,7 @@ header div {
     max-width: 650px;
     width: 100%;
     margin: 0 auto;
+    border: 1px dashed black;
 }
 
 /* main start */
@@ -55,7 +59,6 @@ header div {
 }
 
 .container{
-    background-color: orange;
     height: 400px;
     max-width: 980px;
     width: 100%;
@@ -67,12 +70,14 @@ header div {
     align-items: stretch;
     flex-grow: 2;
     background-color: lightblue;
+    border: 1px dashed black;
 }
 
 .par {
     align-items: stretch;
     flex-grow: 1;
     background-color: pink;
+    border: 1px dashed black;
 }
 
 .p-download {
@@ -80,9 +85,40 @@ header div {
     height: 800px;
     max-width: 980px;
     margin: 0 auto;
+    border: 1px dashed black;
 }
 
+/* footer start */
 
+footer {
+    background-color: rgb(65, 65, 65);
+    padding: 45px 10px 45px 10px;
+}
 
+.container-footer {
+    max-width: 980px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.div-top {
+    height: 400px;
+    display: flex;
+    padding: 10px 0px 10px 0px;
+}
+
+#first-column {
+    background-color: salmon;
+    flex-grow: 2;
+    align-items: stretch;
+    border: 1px dashed black;
+}
+
+.column {
+    background-color: rgb(9, 134, 124);
+    flex-grow: 1;
+    align-items: stretch;
+    border: 1px dashed white;
+}
 
 

@@ -120,15 +120,18 @@ footer {
 }
 
 .bottom {
+    height: 50px;
+    margin-top: 10px;
     display: flex;
-    background-color: rgb(92, 151, 37);
+    background-color: rgb(138, 197, 82);
+    justify-content: space-between;
+    align-items: center;
 }
 
 .bottom div {
-    justify-content: space-between;
-    align-items: flex-end;
     background-color: pink;
     padding: 5px 10px 5px 10px;
+    border: 1px dashed black;
 }
 
 

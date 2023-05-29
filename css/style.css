@@ -7,13 +7,13 @@
 /* navbar start */
 nav {
     background-color: lightblue;
-    padding: 20px 0px 20px 0px;
+    padding: 20px 10px 20px 10px;
 }
 
 .nav-bar {
     background-color: rgb(214, 182, 39);
     padding: 10px;
-    max-width: 1200px;
+    max-width: 980px;
     width: 100%;
     margin: 0 auto;
     display: flex;
@@ -32,13 +32,57 @@ nav {
 
 header {
     background-color: blue;
-    padding: 45px 0px 45px 0px;
+    padding: 45px 10px 45px 10px;
 }
 
 header div {
     background-color: rgb(211, 61, 154);
-    height: 500px;
-    max-width: 900px;
+    height: 300px;
+    max-width: 650px;
     width: 100%;
     margin: 0 auto;
 }
+
+/* main start */
+
+.white-section {
+    padding: 45px 10px 45px 10px;
+}
+
+.grey-section {
+    background-color: lightgray;
+    padding: 45px 10px 45px 10px;
+}
+
+.container{
+    background-color: orange;
+    height: 400px;
+    max-width: 980px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.img {
+    align-items: stretch;
+    flex-grow: 2;
+    background-color: lightblue;
+}
+
+.par {
+    align-items: stretch;
+    flex-grow: 1;
+    background-color: pink;
+}
+
+.p-download {
+    background-color: rgb(28, 128, 19);
+    height: 800px;
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+
+
+
+

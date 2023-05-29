@@ -95,13 +95,13 @@ footer {
     padding: 45px 10px 45px 10px;
 }
 
-.container-footer {
+.footer-container {
     max-width: 980px;
     width: 100%;
     margin: 0 auto;
 }
 
-.div-top {
+.top {
     height: 400px;
     display: flex;
     padding: 10px 0px 10px 0px;
@@ -110,15 +110,26 @@ footer {
 #first-column {
     background-color: salmon;
     flex-grow: 2;
-    align-items: stretch;
     border: 1px dashed black;
 }
 
 .column {
     background-color: rgb(9, 134, 124);
     flex-grow: 1;
-    align-items: stretch;
     border: 1px dashed white;
 }
+
+.bottom {
+    display: flex;
+    background-color: rgb(92, 151, 37);
+}
+
+.bottom div {
+    justify-content: space-between;
+    align-items: flex-end;
+    background-color: pink;
+    padding: 5px 10px 5px 10px;
+}
+
 
 

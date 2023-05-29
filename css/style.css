@@ -3,3 +3,31 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* navbar start */
+nav {
+    background-color: lightblue;
+    padding: 30px 0px 30px 0px;
+}
+
+.nav-bar {
+    background-color: rgb(214, 182, 39);
+    padding: 10px;
+    max-width: 980px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    text-align: center;
+}
+
+.logo, .login {
+    flex-grow: 1;
+}
+
+.nav-links {
+    flex-grow: 3;
+}
+
+/* */
+
+
